@@ -5,32 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>맛다담</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="( min-width: 481px ) and ( max-width: 767px )" href="css/mobile.css">
+    <link rel="stylesheet" media="( min-width: 768px ) and ( max-width: 1024px )" href="css/tablet.css">
+    <link rel="stylesheet" media="( min-width: 1025px ) and ( max-width: 1280px )" href="css/notebook.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script/main.js"></script>
 </head>
 <body>
     <div class="aside_menu"></div>
     <!-- 사이드메뉴바 -->
     <header>
-        <div class="top_left"></div>
-        <div class="top_right"></div>
-        <div class="top_logo"></div>
-        <div class="top_nav"></div>
+        <div class="top_left"><h1 class="notext">상단영역</h1>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">주문/배송조회</a></li>
+                <!-- <li><a href="#">검색</a></li> -->
+            </ul>
+        </div>
+        <div class="top_right">
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">질문/답변</a></li>
+            <li><a href="#">구매후기</a></li>
+            <li><a href="#">회사소개</a></li>
+        </div>
+        <div class="top_logo"><h2 class="notext">로고영역</h2>
+            <a href="#"><img src="images/logo.jpg" alt="맛다담로고"></a>
+        </div>
+        <div class="top_nav">
+            <li><a href="#">맛다담 김치</a></li>
+            <li><a href="#">맛다담 재료</a></li>
+        </div>
         <!-- 상단영역 -->
     </header>
     <section>
-        <div class="slide"></div>
-        <div class="best_product"></div>
-        <div class="all_product"></div>
-        <!-- 메뉴영역 -->
+        <div class="main"><h3 class="notext">슬라이드영역</h1>
+            <div id="slide">
+                <div><img src="images/slide1.jpg" alt="slide"></div>
+                <div><img src="images/slide2.jpg" alt="slide"></div>
+                <div><img src="images/slide3.jpg" alt="slide"></div>
+            </div>
+        </div>
+        <!-- 슬라이드영역 -->
+        <div class="best_product">
+            <h4>best product</h4>
+            <ul>
+                <li><a href="#"><img src="images/34_0l.jpg" alt="맛다담 백김치"></a></li>
+                <li><a href="#"><img src="images/46_0l.jpg" alt="맛다담 홍갓나박김치"></a></li>
+                <li><a href="#"><img src="images/42_0l.jpg" alt="맛다담 쌩깻잎김치"></a></li>
+            </ul>
+        </div>
+        <div class="all_product">
+            <h5>all product</h5>
+            <ul>
+                <li><a href="#"><img src="images/45_0l.jpg" alt="맛다담 무동치미"></a></li>
+                <li><a href="#"><img src="images/32_0l.jpg" alt="맛다담 포기김치"></a></li>
+                <li><a href="#"><img src="images/46_0l.jpg" alt="맛다담 홍갓나박김치"></a></li>
+                <li><a href="#"><img src="images/41_0l.jpg" alt="맛다담 오이소박이"></a></li>
+                <li><a href="#"><img src="images/37_0l.jpg" alt="맛다담 갓김치"></a></li>
+                <li><a href="#"><img src="images/39_0l.jpg" alt="맛다담 깍두기"></a></li>
+                <li><a href="#"><img src="images/36_0l.jpg" alt="맛다담 파김치"></a></li>
+                <li><a href="#"><img src="images/35_0l.jpg" alt="맛다담 총각김치"></a></li>
+                <li><a href="#"><img src="images/14_0l.jpg" alt="맛다담 보쌈김치"></a></li>
+                <li><a href="#"><img src="images/42_0l.jpg" alt="맛다담 쌩깻잎김치"></a></li>
+                <li><a href="#"><img src="images/40_0l.jpg" alt="맛다담 맛김치"></a></li>
+                <li><a href="#"><img src="images/38_0l.jpg" alt="맛다담 고들빼기"></a></li>
+                <li><a href="#"><img src="images/14_0l.jpg" alt="맛다담 김장김치"></a></li>
+                <li><a href="#"><img src="images/34_0l.jpg" alt="맛다담 백김치"></a></li>
+            </ul>
+        </div>
+        <!-- 상품영역 -->
     </section>
     <footer>
         <div class="btm_top">
-            <div class="cs"></div>
-            <div class="bank"></div>
-            <div class="info"></div>
+            <div class="cs">
+                <p>cs center</p>
+                <p>☎ 010-4293-1255</p>
+                <p>운영시간 : 오전10시 - 오후6시
+                    점심시간 : 오후12시 - 오후1시
+                    주말 및 공휴일은 휴무입니다.</p>
+            </div>
+            <div class="bank">
+                <p>BANK INFO</p>
+                <p>농협 010-4293-1255-09 / 예금주 : 박유경</p>
+                <p>DELIVERY & RETURN</p>
+                <p>반품주소 : 광주광역시 북구 양산택지로 142</p>
+            </div>
+            <div class="info">
+                <p>SHOP INFO</p>
+                <p>Company. 맛다담 / Owner. 박유경
+                    <br>
+                    Business License. 551-96-00971 [사업자정보확인]
+                    <br>
+                    Online, License. 제2019-전남담양-0105호
+                    <br>
+                    Tel. 010-4293-1255
+                    <br>
+                    Add. 전라남도 담양군 담양읍 추성로 1265
+                    <br>
+                    Copyright &copy; “맛다담” All Right Reserved.</p>
+            </div>
         </div>
         <div class="copy">
-            <div class="copy_left"></div>
-            <div class="copy_right"></div>
+            <div class="copy_left">
+                <p>COMPANY  /  MEMBER TERMS  /  AGREEMENT  / </p>
+                <p>Copyright &copy; “맛다담” All Right Reserved.</p>
+            </div>
+            <div class="copy_right">
+                <ul>
+                    <li><a href="#"><img src="images/bt_logo1.gif" alt="btm-logo"></a></li>
+                    <li><a href="#"><img src="images/bt_logo2.gif" alt="btm-logo"></a></li>
+                    <li><a href="#"><img src="images/bt_logo3.gif" alt="btm-logo"></a></li>
+                </ul>
+            </div>
         </div>
         <!-- 하단영역 -->
     </footer>

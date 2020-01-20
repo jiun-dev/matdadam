@@ -49,3 +49,16 @@ A.prepend(B)
 B.prependTo(A)
  -> A의 처음에 B를 추가
 */
+
+
+$( document ).ready( function() {
+    var jbOffset = $( '.top_nav' ).offset();
+    $( window ).scroll( function() {
+      if ( $( document ).scrollTop() > jbOffset.top ) {
+        $( '.top_nav' ).addClass( '.topnav_Fixed' );
+      }
+      else {
+        $( '.top_nav' ).removeClass( '.topnav_Fixed' );
+      }
+    });
+  } );

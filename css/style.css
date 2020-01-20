@@ -37,22 +37,26 @@ header {
 
 .top_left {
     float: left;
+    margin: 25px 75px;
+    word-spacing: 12px;
 }
 
 .top_left ul li {
     display: inline;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .top_right {
     position: relative;
     float: left;
     padding-left: 70%;
+    word-spacing: 12px;
+    margin-top: -50px;
 }
 
 .top_right ul li {
     display: inline;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .top_logo {
@@ -64,8 +68,6 @@ header {
     margin-top: 25px;
     text-align: center;
     width: 100%;
-    z-index: 9999;
-    position: fixed;
     background-color: white;
     float: left;
     position: relative;
@@ -74,8 +76,10 @@ header {
     padding: 15px 0;
 }
 
+
 .top_nav li  {
     display: inline-block;
+    margin: 5px 15px;
 }
 
 /*---------------------------중간영역-----------------------------*/
@@ -165,4 +169,50 @@ header {
     margin: 20px 0px;
     position: relative;
     margin-left: 43%;
+}
+
+/*---------------------------하단영역-----------------------------*/
+
+footer {    
+    margin-left: 50px;
+}
+
+.btm_top {
+    position: relative;
+}
+
+.cs {
+    float: left;
+}
+
+.bank {
+    float: left;
+    padding-left: 200px;
+}
+
+.info {
+    float: left;
+    padding-left: 200px;
+}
+
+/*---------------------------copy-----------------------------*/
+
+.copy {
+    position: relative;
+    float: left;
+    background-color: #282828 opacity 0.9;
+    margin-top: 50px;    
+}
+
+.copy_left {
+    float: left;
+}
+
+.copy_right {
+    float: left;
+    padding-left: 450px;
+}
+
+.copy_right ul li {
+    display: inline;
 }

@@ -36,6 +36,7 @@ header {
 }
 
 .top_left {
+    position: relative;
     float: left;
     margin: 25px 75px;
     word-spacing: 12px;
@@ -120,6 +121,7 @@ header {
     margin: 50px 50px;
 }
 
+
 .best-title {
     text-align: center;
     font-size: 30px;
@@ -134,6 +136,12 @@ header {
     margin: 20px 0px;
     position: relative;
     margin-left: 43%;
+}
+
+/*---------------------------메인상품가격-----------------------------*/
+
+.best_icons {
+    text-align: center;
 }
 
 /*---------------------------서브상품영역-----------------------------*/
@@ -171,6 +179,21 @@ header {
     margin-left: 43%;
 }
 
+/*---------------------------서브상품영역 마우스 오버효과-----------------------------*/
+
+.all_product ul li img:hover {
+    opacity: 0.5;
+}
+/*---------------------------서브상품가격-----------------------------*/
+
+.icons {
+    text-align: center;
+}
+
+.pro_text {
+    font-size: 11px;
+}
+
 /*---------------------------하단영역-----------------------------*/
 
 footer {    
@@ -179,6 +202,7 @@ footer {
 
 .btm_top {
     position: relative;
+    margin-top: 200px;
 }
 
 .cs {
